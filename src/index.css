@@ -1,0 +1,28 @@
+body {
+  background-color: yellow;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 1000px;
+
+  position: fixed;
+  background-color: blue;
+  border: solid 1px;
+}
+.header__title {
+  background-color: red;
+}
+.header__list {
+  background-color: orange;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: green;
+}
